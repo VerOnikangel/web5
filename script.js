@@ -10,7 +10,7 @@ function calculateTotal() {
     const quantity = parseInt(quantityInput.value); // Получаем количество товара
     const total = price * quantity; // Рассчитываем общую стоимость
     if(total<0){
-        result.textContent = `ВЫ НЕ МОЖЕТЕ КУПИТЬ ОТРИЦАТЕЛЬНОЕ ЧИСЛО ЧЕГО ЛИБО`;
+        result.textContent = `ИЗВИНИТЕ, НО ПРОЧИТАТЬ КНИГУ ВСЁ ЖЕ ПРИДЁТСЯ!`;
     }
     else{
         result.textContent = `Стоимость: ${total} руб.`; // Выводим результат
